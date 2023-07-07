@@ -1,0 +1,212 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  height: auto;
+  width: auto;
+}
+
+
+nav {
+    background-color: #1f2937;
+    display: flex;
+    padding: 8px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: lightgrey;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.header {
+    color: white;
+    font-size: 72px;
+    font-weight: bolder;
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.right-links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.upper-pane {
+    background-color: #1f2937;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+}
+
+.left-section {
+    flex-direction: column;
+}
+
+.main-text {
+    color: white;
+    font-size: 54px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.subtext {
+    color: lightgrey;
+    font-size: 25px;
+    padding: 10px;
+    gap: 16px;
+    /* display: flex; */
+}
+
+.buttons {
+    padding: 10px;
+}
+
+button {
+    color: white;
+    background-color: #141414;
+    border: 1px solid rgba(54,54,54,0.6);
+    font-weight: 600;
+    position: relative;
+    /* outline: none; */
+    border-radius: 50px;
+    cursor: pointer;
+    opacity: 1;
+    height: 45px;
+    width: 130px;
+    
+}
+
+.middle-pane {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    padding: 0;
+}
+
+.title {
+    font-size: 32px;
+    font-weight:600;
+    margin-top: 32px ;
+    margin-bottom: 32px;
+    text-align: center;
+    /* border: 2px solid red */
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container img {
+    height: 200px;
+    width: 200px;
+}
+
+.text {
+    text-align: center;
+}
+
+.mid-low-pane {
+    padding: 20px;
+    background-color: #e5e7eb;
+    display: flex;
+    /* flex: 2; */
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid red */
+}
+
+.long-text {
+    margin: auto;
+    width: 50%;
+    text-align: justify;
+    font-size: 28px;
+    font-weight: lighter;
+    font-style: italic;
+    /* border: 2px solid red */
+}
+
+.span {
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lower-pane {
+    margin: auto;
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:  center;
+}
+
+.section {
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #3cb8ffd7;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 40px;
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 600;
+    /* display: flex; */
+    /* border: 2px solid red; */
+}
+
+.sign-up {
+    font-size: 20px;
+    font-weight: 600;
+    /* border: 2px solid red; */
+}
+
+.footer {
+    height: 100%;
+    width: 100%;
+    background-color: #1f2937;
+}
+
+.foot-title {
+    font-size: 20px;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 35px;
+}
